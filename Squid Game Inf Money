@@ -1,0 +1,26 @@
+--[[
+
+-- Game -- https://www.roblox.com/games/7952502098/Impossible-Glass-Bridge-Obby-Squid-Game
+
+this script is trash lol
+-azure#0825
+
+--]]
+
+local Client = game.Players.LocalPlayer
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Credits",
+	Text = "created by azure#0825",
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Script",
+	Text = "Reset to disable.",
+})
+
+
+repeat
+Client.Character.HumanoidRootPart.CFrame = CFrame.new(1104.182861328125,62.935665130615234,116.47574615478516)
+wait(0.5)
+until Client.Character.Humanoid.Health == 0
